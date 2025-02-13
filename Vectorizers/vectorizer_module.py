@@ -27,10 +27,6 @@ DSU_VOCABULARY = [str(i) for i in range(2001)]
 
 COLUMNS = ['text', 'DSU', 'DSU_deduplicated']
 
-# We suggest that local folder is Speaker-recognition
-#GLOBAL_PATH = '/home/liskasi/Projects/Speaker-recognition'
-#GLOBAL_PATH = Path(os.path.expanduser("~"))
-
 current_file_path = Path(__file__).resolve()
 # Navigate up to the repository root directory (assuming the repository structure is consistent)
 REPO_ROOT = current_file_path.parent.parent

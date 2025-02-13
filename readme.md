@@ -9,15 +9,15 @@ The datasets we used in this project are:
 2. VCTK [(Link)](https://datashare.ed.ac.uk/handle/10283/2651)
 
 ## Repository structure
-Here is the structure of the repository highlighting the important folders and files 
+Here is the structure of the repository highlighting the important folders and files. Each folder contains its own readme file with more detailed specifications
 ``` bash
 Speaker-recognition/
 .
 ├── DSU_creation
 │   ├── LibriSpeech
-│   │   └── final_data_librispeech/     #Contains data
+│   │   └── final_data_librispeech/     #Contains the LibriSpeech final dataset
 │   ├── VCTK
-│   │   └── final_data_vctk/            #Contains data
+│   │   └── final_data_vctk/            #Contains the VCTK final dataset
 │   ├── audio2dsu.sh
 │   ├── readme.md
 │   ├── to_tsv.py
@@ -40,12 +40,11 @@ Speaker-recognition/
 │   ├── CV_vanilla_unigrams.csv
 │   ├── Tfidf.ipynb
 │   └── vectorizer_module.py
-├── data_exploration.ipynb
 ├── gather_data
 │   ├── LibriSpeechData.ipynb
 │   ├── VCTKData.ipynb
 │   ├── aligning_dsu2audio.ipynb
-│   └── data_exploration.ipynb
+├── data_exploration.ipynb            #Notebook with all main data exploration
 ├── readme.md
 └── requirements.txt
 ```
